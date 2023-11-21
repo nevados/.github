@@ -1,0 +1,13 @@
+name: Feature Request
+description: Change request or improvement suggestions
+title: 'Feature'
+labels: ['enhancement', 'triage']
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Describe the feature
+      description: What is the feature you would like to see?
+      value: 'As a user, I want to...'
+    validations:
+      required: true
