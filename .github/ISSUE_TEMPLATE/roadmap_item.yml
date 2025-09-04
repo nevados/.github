@@ -1,6 +1,5 @@
 name: Roadmap Item
 description: Suggest a new item for the project roadmap.
-title: ''
 labels: ['triage', 'roadmap']
 type: Task
 body:
@@ -9,7 +8,6 @@ body:
     attributes:
       label: Value Prop
       description: What is the value proposition of this roadmap item?
-      value: ''
     validations:
       required: true
   - type: textarea
@@ -17,6 +15,5 @@ body:
     attributes:
       label: Expected Outcome
       description: What is the expected outcome of this roadmap item?
-      value: ''
     validations:
       required: true
