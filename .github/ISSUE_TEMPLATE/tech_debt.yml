@@ -1,0 +1,14 @@
+name: Tech Debt
+description: Report technical debt that needs to be addressed.
+title: ''
+labels: ['triage', 'tech debt']
+type: Task
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What technical debt needs to be addressed?
+      description: Describe the technical debt in detail.
+      value: 'The technical debt is...'
+    validations:
+      required: true
