@@ -1,4 +1,4 @@
-name: '💩 Tech Debt'
+name: '🙈 Tech Debt'
 description: Report technical debt that needs to be addressed.
 labels: ['triage', 'tech debt']
 type: Task
