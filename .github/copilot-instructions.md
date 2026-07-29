@@ -1,0 +1,5 @@
+- Use Conventional Commits for all commits. Example: feat(auth): add refresh token
+- Use Conventional Pull Requests. PR titles follow Conventional Commits. Example: fix(api): handle 401 on refresh
+- Keep PRs in Draft while in progress; mark “Ready for review” only when work is complete
+- Never hard‑code secrets in code, configs, or examples; use env vars and secret managers with redacted samples
+- Authenticate to GCP via Google Workload Identity Federation (GitHub OIDC), not long‑lived service account keys
